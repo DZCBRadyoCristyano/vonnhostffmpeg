@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: ffmpeg-restreamer
+    env: docker
+    plan: starter        # pwede mo ilagay free, pero hindi 24/7
+    autoDeploy: true
